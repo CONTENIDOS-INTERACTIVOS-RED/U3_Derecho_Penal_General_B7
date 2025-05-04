@@ -25,7 +25,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-12
             .row.justify-content-center.align-items-center
-              .col-lg-9(data-aos="fade-left").mb-3.mb-lg-0
+              .col-lg-9(data-aos="fade-left").mb-3.mb-lg-0.order-2.order-lg-1
                 ul.lista-ul--color
                   li.mb-0.d-flex
                     i.far.fa-arrow-alt-circle-right.bg-color-12
@@ -33,7 +33,7 @@
                   li.mb-0.d-flex
                     i.far.fa-arrow-alt-circle-right.bg-color-12
                     p.mb-0 La punibilidad, por su parte, representa una condición adicional que permite o impide la aplicación de una sanción penal. Aun cuando se haya cometido un hecho delictivo, pueden existir causas que excluyan la pena (como la inimputabilidad o el perdón judicial), lo que haría que no se imponga castigo alguno (Goldschmidt, 2016).
-              .col-lg-3(data-aos="zoom-in")
+              .col-lg-3(data-aos="zoom-in").order-1.order-lg-2
                 img.img-fluid(src='@/assets/curso/tema1/3.svg', style="max-width:486px", alt="" ).mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
     
     p.mb-4 Este enfoque esquemático tiene un gran valor práctico, ya que permite establecer con claridad:
@@ -107,7 +107,7 @@
     
         .bg-color-3.p-4(data-aos="fade-left")
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/7.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Así, si una persona con discapacidad mental severa mata a otra en un ataque de ira, esta teoría concluiría que, aunque el hecho es típico y antijurídico, no hay culpabilidad por falta de imputabilidad. Aporta un enfoque más justo al considerar las condiciones individuales del autor, lo que representa un avance hacia una justicia penal individualizada.
@@ -128,7 +128,7 @@
     .bg-full-width.bg-color-6.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/9.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0.text-white Un caso frecuente: si alguien atropella a un peatón mientras conduce ebrio, la teoría finalista concluye que no hay dolo, pero sí culpa grave, lo que configura un homicidio culposo (art. 109 C.P.). Esta teoría sustenta buena parte del modelo penal colombiano contemporáneo, que se basa en el análisis de la acción, imputación y responsabilidad penal.
@@ -137,10 +137,10 @@
       h2 #[span 1.2] Esquemas del delito y su impacto en la punibilidad
     
     .row.mb-5
-      .col-lg-4.order-2
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/10.png", data-aos="zoom-in")
-      .col-lg-8.order-1.mb-3.mb-lg-0
+      .col-lg-8.order-lg-1
         p(data-aos="fade-left") El análisis dogmático del delito ha sido sistematizado a lo largo del tiempo mediante diferentes esquemas teóricos, que no solo facilitan la comprensión de cómo se configura una conducta punible, sino que también tienen efectos prácticos directos en la aplicación de la ley penal. Estos esquemas permiten determinar si una conducta es sancionable y bajo qué condiciones, convirtiéndose en herramientas esenciales para la evaluación de la responsabilidad penal y la toma de decisiones judiciales.
     
         .bg-color-2.p-4(data-aos="fade-left")

@@ -3,13 +3,23 @@
   BannerInterno(:subTitulo="'2. Clasificación de las penas y subrogados penales'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-    p.mb-4 A continuación, se expone una explicación clara sobre cómo se estructuran las penas en el sistema penal colombiano y qué alternativas contempla la ley para evitar el encarcelamiento en ciertos casos. 
+    p.mb-5 A continuación, se expone una explicación clara sobre cómo se estructuran las penas en el sistema penal colombiano y qué alternativas contempla la ley para evitar el encarcelamiento en ciertos casos. 
 
-    .bg-full-width.bg-fondo-slider.mb-5
-      .p-4.p-md-5
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6
+
+        TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
+          texto="Clasificación de las penas"
+          tiempo
+          :audio="require('../../assets/curso/podcast/podcast1.mp3')"
+        )
+
+    //- .bg-full-width.bg-fondo-slider.mb-5
+    //-   .p-4.p-md-5
+    //-     figure
+    //-       .video
+    //-         iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
     #t_2_1.titulo-segundo(data-aos="flip-up")
